@@ -1,0 +1,25 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+  background-size:cover;
+  background-image: url("https://img.freepik.com/vector-gratis/cielo-vacio-escena-naturaleza-parque_1308-50041.jpg?w=1380&t=st=1664832987~exp=1664833587~hmac=1281fb08ad54e03e00fe1534ef28eeac69c0670abf6fb3912b0ce145d8907789");
+}
+footer{
+  background-color: white;
+}
+table {
+  border-color:black;
+	height: 30px;
+}

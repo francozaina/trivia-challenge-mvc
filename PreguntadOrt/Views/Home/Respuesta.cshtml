@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Respuesta";
+}
+@if(ViewBag.Correcta == true)
+{
+    <div class="container" style="width:1300px;">
+        <div class="row">
+            <div class="col bg-white">
+                    <br/>
+    <center><img src ="https://c.tenor.com/BntXpMlrGuEAAAAC/check-correct.gif" heigth ="150px"><img src = "https://us.123rf.com/450wm/carmenbobo/carmenbobo1412/carmenbobo141200640/34664405-sello-de-goma-con-la-palabra-correcta-en-el-interior-ilustraci%C3%B3n-vectorial.jpg"> <img src ="https://c.tenor.com/BntXpMlrGuEAAAAC/check-correct.gif" heigth ="150px"></center><br/>
+    <center><a class="btn btn-success" href='@Url.Action("Jugar","Home")'>Siguiente</a></center><br/>
+    <center><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvXrNoC2ckevVg9EnFI7UTrYxtL5z-8NabnVWO8X1f7MteeAZFUqi23Qy7vQhLLmDCac&usqp=CAU" heigth ="500px"></center>
+            </div>  
+        </div> 
+    </div>                
+    
+}
+else if(ViewBag.Correcta == false)
+{
+    <div class="container" style="width:1300px;">
+        <div class="row">
+            <div class="col bg-white">
+                    <center><img src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bc70c43b-aeca-448a-a158-0f8e7c281a0d/dceqwb1-a75b8ac9-8340-45bb-8049-4883b81baa3c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JjNzBjNDNiLWFlY2EtNDQ4YS1hMTU4LTBmOGU3YzI4MWEwZFwvZGNlcXdiMS1hNzViOGFjOS04MzQwLTQ1YmItODA0OS00ODgzYjgxYmFhM2MuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Xmt2peugw4IY64xOXTkc3Q1IFo5T861ncwbHc1E4rhM" height="200px"><img src = "https://principiodeuncomienzo.files.wordpress.com/2018/06/123.png" height="200px"><img src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bc70c43b-aeca-448a-a158-0f8e7c281a0d/dceqwb1-a75b8ac9-8340-45bb-8049-4883b81baa3c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JjNzBjNDNiLWFlY2EtNDQ4YS1hMTU4LTBmOGU3YzI4MWEwZFwvZGNlcXdiMS1hNzViOGFjOS04MzQwLTQ1YmItODA0OS00ODgzYjgxYmFhM2MuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Xmt2peugw4IY64xOXTkc3Q1IFo5T861ncwbHc1E4rhM" height="200px"></center><br/>
+    <center><a class="btn btn-danger" href='@Url.Action("Jugar","Home")'>Siguiente</a></center><br/>
+    <center><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0XINRsYG1rVPTDn_AsxbvEMAu2tjOEQ_4A&usqp=CAU" heigth ="200 px"></center> 
+            </div>
+        </div>
+    </div>                
+
+    
+}

@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Fin";
+}
+<div class="container" style="width:500px;">
+    <div class="row">
+            <div class="col bg-white">
+                <h1>Fin</h1>
+                <h1>Usuario: @ViewBag.username</h1>
+                <h1>Puntaje: @ViewBag.puntaje</h1>
+                <a  class="btn btn-primary my-2" href='@Url.Action("ConfigurarJuego","Home")'>Jugar de nuevo</a>
+                <a  class="btn btn-primary my-2" href='@Url.Action("Index","Home")'>Inicio</a>
+            </div>   
+    </div>
+</div>    

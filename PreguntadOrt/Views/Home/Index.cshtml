@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+<div class="container" style="width:600px;">
+<br/>
+<br/>
+    <div class="row">
+            <div class="col bg-white">
+                    <div class="text-center">
+                        <img src = "https://pbs.twimg.com/media/Fb5HMe5XkAMY2Yj?format=png&name=small">
+                    </div>
+                    <div class="text-center">
+                        <a href= '@Url.Action("ConfigurarJuego", "Home")'><img height="100px" src="http://i2.wp.com/i.imgur.com/6Es6Dk4.png?resize=190%2C93"></img></a>
+                    </div>
+                    <br/>
+                    <center>
+                    <img src = "https://pbs.twimg.com/media/FdW08_NWQAIQwTz?format=png&name=240x240">
+                    </center>
+                    <center>
+                    <table class="table" border="2px" style=width:500px>
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Puntaje</th>
+                        </tr>
+                    </thead> 
+                        <tbody >
+                            @{
+                            int cont = 1;
+                            foreach (Ranking p in ViewBag.ranking)  
+                            {    
+                                <tr >
+                                    <th scope="row">@cont @if(cont == 1){<img src = "https://pbs.twimg.com/media/Fd7G6ArWYAALobB?format=png&name=240x240" height = "27px">}else if(cont == 2){<img src ="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f948.png" height = "27px">}else if(cont == 3){<img src ="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f949.png" height = "27px">}</th>
+                                    <td>@p.NombreUser</td>
+                                    <td>@p.PuntajeFinal</td>
+                                </tr>
+                                cont ++;
+                            }
+                            }  
+                        </tbody> 
+                    </table>
+             </div>
+    </div>
+</div>
+
