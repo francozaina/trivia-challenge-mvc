@@ -4,7 +4,7 @@ using Dapper;
 using System.Collections.Generic;
 public class BD
 {
-    private static string _connectionString = @"Server=DESKTOP-JHC6CC3\SQLEXPRESS;DataBase=PreguntadOrt;Trusted_Connection=True";
+    private static string _connectionString = @"Server=.\SQLEXPRESS;Database=PreguntadOrtDB;Trusted_Connection=True;TrustServerCertificate=True;";
     public static List<Ranking> ObtenerRanking()
     {
         List<Ranking> lista = new List<Ranking>();

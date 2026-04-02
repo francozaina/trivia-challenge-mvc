@@ -17,12 +17,8 @@
           <input class="form-control" type="text" name="username" required autocomplete ="off" placeholder="Ej: fod123">
         </div>
         <div class="mb-5">
-              <h6>Dificultad</h6>
-              <select name = "dificultad" class="form-control" id="exampleFormControlSelect1">
-                @foreach (Dificultad p in ViewBag.dificultades)  
-                  {
-                    <option value="@p.IdDificultad">@p.Nombre</option>
-                  }      
+              <input type="hidden" name="dificultad" value="6">
+                     
               </select>
         </div>
         <div class="mb-5">             
