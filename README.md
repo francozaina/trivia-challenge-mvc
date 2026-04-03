@@ -1,25 +1,61 @@
-# 🧠 PreguntadOrt - Trivia Challenge 🚀
+# ❓​ Trivia Challenge MVC
 
-**PreguntadOrt** es una aplicación web de trivia dinámica desarrollada en **ASP.NET Core MVC**. El proyecto fue originalmente concebido como un desafío académico para la **ORT**, pero ha sido optimizado y migrado a tecnologías de última generación para demostrar capacidades de desarrollo **Fullstack**.
+Aplicación web de trivia desarrollada con **ASP.NET Core MVC**, donde los usuarios pueden responder preguntas por categorías y avanzar a través de distintas rondas de juego.
 
----
-## 🚀 Live Demo
-[http://francozaina-001-site1.mtempurl.com/]
----
-## 🛠️ Stack Tecnológico
-
-* **Backend:** .NET 10.0 (C#)
-* **Frontend:** ASP.NET Core MVC, HTML5, CSS3 (Bootstrap 5)
-* **Base de Datos:** Microsoft SQL Server 2025
-* **ORM:** Dapper (Micro-ORM de alto rendimiento)
+El proyecto fue realizado originalmente como trabajo académico y luego adaptado/mejorado para dejarlo más prolijo, presentable y fácil de mostrar como parte de mi portfolio.
 
 ---
 
-## 🌟 Características Destacadas
+## 🚀 Demo
 
-* **Lógica Dinámica:** Sistema de filtrado inteligente que permite jugar por categorías específicas o con todo el mazo de preguntas simultáneamente.
-* **UI Optimizada:** Interfaz limpia con fondos personalizados y flujo de usuario simplificado para una mejor experiencia de juego.
-* **Arquitectura MVC:** Separación clara de responsabilidades para un código mantenible y escalable.
+**Live Demo:** http://francozaina-001-site1.mtempurl.com/
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **ASP.NET Core MVC**
+- **C#**
+- **SQL Server**
+- **Dapper**
+- **HTML5**
+- **CSS3**
+- **Bootstrap**
+- **JavaScript**
+
+---
+
+## 📌 Características principales
+
+- Sistema de trivia por preguntas
+- Interfaz web con navegación entre vistas
+- Lógica de juego del lado del servidor
+- Persistencia de datos con SQL Server
+- Arquitectura MVC para separar responsabilidades
+- Integración entre frontend, backend y base de datos
+
+---
+
+## 🧠 Objetivo del proyecto
+
+El objetivo principal fue practicar conceptos de desarrollo **full stack**, trabajando sobre:
+
+- Construcción de interfaces web
+- Organización de vistas y controladores
+- Manejo de lógica de negocio
+- Conexión a base de datos
+- Estructuración de una aplicación MVC
+
+---
+
+## 📂 Estructura general
+
+El proyecto está organizado siguiendo el patrón **MVC**:
+
+- **Models** → manejo de datos y entidades
+- **Views** → interfaz visual
+- **Controllers** → lógica de navegación y comportamiento
+- **Data / acceso a base de datos** → consultas y persistencia
 
 ---
 
@@ -48,6 +84,8 @@ dotnet run
 
 ## 👤 Autor
 **Franco Zaina**
-* 🎓 Computer Science Student at **UBA (Exactas)**
-* 💻 Systems Graduate from **ORT Argentina**
+* 🎓 Ciencias de la Computación **UBA (Exactas)**
+* 💻 Egresado en informática **ORT Argentina**
 * 🔗 [LinkedIn Profile](https://www.linkedin.com/in/franco-rom%C3%A1n-zaina-a2bb9a238/) | 📧 [fran.roman.zeta@gmail.com]
+
+---
